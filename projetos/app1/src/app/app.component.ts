@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app1';
+
+  public jogoEmAndamento: boolean = true
+  public tipoEncerramento: string
+
+  public encerrarJogo(tipo: string): void {
+    this.jogoEmAndamento = false
+    this.tipoEncerramento = tipo
+  }
+  
+  public reiniciar():void {
+    this.jogoEmAndamento = true
+    this.tipoEncerramento = undefined
+  }
+
 }

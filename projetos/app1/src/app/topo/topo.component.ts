@@ -8,5 +8,5 @@ import { Component } from '@angular/core'
 })
 
 export class TopoComponent {
-    public titulo: string = 'Aprendendo Inglês Papito'
+    public titulo: string = 'Alefolingo o barão da pisadinha'
 }
